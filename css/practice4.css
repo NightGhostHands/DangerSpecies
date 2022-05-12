@@ -1,0 +1,416 @@
+@font-face {
+ font-family: 'Grooved';
+ src: url(../fonts/Grooved.ttf);
+}
+
+@font-face {
+ font-family: 'BebasNeue';
+ src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	weight: 100%;
+}
+
+.button {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+  background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.button:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.05);
+  position: center;
+}
+
+.red {
+  background-color: red;
+	background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.container {
+    font-family: 'Grooved';
+	max-width: 100%;
+	height: 40px;
+	background-color: ;
+	position: relative;
+	left: 37.5%;
+	top: 2%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.animated-fill-button {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-size: 24px;
+  border: 1px solid #000;
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.animated-fill-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.Word {
+  font-family: 'BebasNeue';
+  position: relative;
+  font-size: 72px;
+  top: 2%;
+  left: 0%;
+  text-align: center;
+}
+
+.Title {
+  position: relative;
+  font-size: 72px;
+  top: 1%;
+  left: 20%;
+  text-align: center;
+}
+
+.frame {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+
+.photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/wwf.jpg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  width: 500px;
+  height: 350px;
+}
+
+.frame2 {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: black;
+  overflow: hidden;
+}
+
+.photo2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/national.jpg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  width: 500px;
+  height: 350px;
+}
+
+.frame3 {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+
+.photo3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/international.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: center;
+  width: 500px;
+  height: 350px;
+}
+
+.frame4 {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 115%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+
+.photo4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/redlist50.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: center;
+  width: 500px;
+  height: 350px;
+}
+
+.base {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 213px;
+  height: 125px;
+}
+
+.Title {
+  position: relative;
+  font-size: 27px;
+  width: 700px;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+}
+
+.Descriptiona {
+    font-family: 'BebasNeue';
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 200%;
+  left: 90%;
+  text-align: left;
+}
+
+.base2 {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.info2 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 213px;
+  height: 125px;
+}
+
+.Title2 {
+  position: relative;
+  font-size: 27px;
+  width: 700px;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+}
+
+.Descriptiona2 {
+  font-family: 'BebasNeue';
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 145%;
+  left: 90%;
+  text-align: left;
+}
+
+.Descriptiona:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.2);
+  position: center;
+}
+
+.Descriptiona2:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.2);
+  position: center;
+}
+
+.Descriptiona3:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.2);
+  position: center;
+}
+
+.Descriptiona4:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.2);
+  position: center;
+}
+
+.Link2 {
+  position: absolute;
+  font-size: 27px;
+  width: 570px;
+  top: 180%;
+  left: 0%;
+  text-align: right;
+}
+
+.base3 {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 85%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.info3 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 213px;
+  height: 125px;
+}
+
+.Title3 {
+  position: relative;
+  font-size: 27px;
+  width: 700px;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+}
+
+.Descriptiona3 {
+    font-family: 'BebasNeue';
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 200%;
+  left: 90%;
+  text-align: left;
+}
+
+.base4 {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 115%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 4px solid black;
+  background-color: yellow;
+  overflow: hidden;
+}
+
+.info4 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 213px;
+  height: 125px;
+}
+
+.Title4 {
+  position: relative;
+  font-size: 27px;
+  width: 700px;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+}
+
+.Descriptiona4 {
+    font-family: 'BebasNeue';
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 250%;
+  left: 90%;
+  text-align: left;
+}
+
+.square2 {
+	max-width: 100%;
+	height: 1620px;
+	background-image: url(../images/juggle.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+  z-index: -1;
+}
+
+.container3 {
+	max-width: 100%;
+	height: 150px;
+	background-color: black;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+	z-index: 1;
+}

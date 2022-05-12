@@ -1,0 +1,258 @@
+@font-face {
+ font-family: 'Grooved';
+ src: url(../fonts/Grooved.ttf);
+}
+
+@font-face {
+ font-family: 'BebasNeue';
+ src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	weight: 100%;
+}
+
+.button {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+  background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.button:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.05);
+  position: center;
+}
+
+.red {
+  background-color: red;
+	background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.container {
+    font-family: 'Grooved';
+	max-width: 100%;
+	height: 40px;
+	background-color: ;
+	position: relative;
+	left: 37.5%;
+	top: 2%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.animated-fill-button {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-size: 24px;
+  border: 1px solid #000;
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.animated-fill-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.Word {
+    font-family: 'BebasNeue';
+  position: relative;
+  font-size: 72px;
+  top: 2%;
+  left: 0%;
+  text-align: center;
+}
+
+.Title {
+  position: relative;
+  font-size: 72px;
+  top: 1%;
+  text-align: center;
+}
+
+.frame {
+  width: 1500px;
+  height: 900px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+
+.photo {
+  position: absolute;
+  top: 60%;
+  left: 67.5%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/Threatend.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 2000px;
+  height: 1000px;
+}
+
+.frame2 {
+  width: 1500px;
+  height: 950px;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  background-color: white;
+  overflow: hidden;
+}
+
+.photo2 {
+  position: absolute;
+  top: 45%;
+  left: 67.5%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/GlobalChart.jpg);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  width: 2000px;
+  height: 1000px;
+}
+
+.basettt {
+  width: 800px;
+  height: 350px;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  width: 213px;
+  height: 125px;
+}
+
+.Title {
+  position: relative;
+  font-size: 27px;
+  width: 340px;
+  top: 10%;
+  left: -10%;
+  text-align: left;
+}
+
+.Descriptiona {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptionb {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptionc {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptiond {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptione {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptionf {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 200%;
+  left: 0;
+  text-align: left;
+}
+
+.Descriptiong {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  text-align: left;
+}
+
+.square2 {
+	max-width: 100%;
+	height: 2150px;
+	background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+  z-index: -1;
+}
+
+.container3 {
+	max-width: 100%;
+	height: 150px;
+	background-color: black;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+	z-index: 1;
+}

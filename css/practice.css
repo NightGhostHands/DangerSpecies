@@ -1,0 +1,391 @@
+@font-face {
+ font-family: 'Grooved';
+ src: url(../fonts/Grooved.ttf);
+}
+
+@font-face {
+ font-family: 'BebasNeue';
+ src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	weight: 100%;
+}
+
+.button {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: black;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+  background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.button:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.05);
+  position: center;
+}
+
+.red {
+  background-color: red;
+	background-image: url(../images/panda.png);
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.container {
+  font-family: 'Grooved';
+	max-width: 100%;
+	height: 40px;
+	background-color: ;
+	position: relative;
+	left: 37.5%;
+	top: 2%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.square {
+height: 750px;
+width: fill;
+background-image: url(../images/foresty.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+text-rendering: geometricPrecision;
+animation: fadeIn ease 10s;
+transition: background-color 0s ease-out 100ms;
+}
+
+.container2 {
+	max-width: 100%;
+	height: 40px;
+	background-color: black;
+	position: relative;
+	left: 0;
+	top: 0%;
+	margin: 0 auto;
+	z-index: 1;
+}
+
+.animated-fill-button {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  font-size: 24px;
+  border: 1px solid #000;
+  width: 0px;
+  height: 0px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.animated-fill-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.base {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/homonotab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title {
+  position: relative;
+  font-size: 27px;
+  width: 340px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: -70%;
+  text-align: left;
+}
+
+.Link {
+    font-family: 'BebasNeue';
+  position: absolute;
+  font-size: 27px;
+  width: 570px;
+  top: 180%;
+  left: 0%;
+  text-align: right;
+}
+
+.Link:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  transform: scale(1.05);
+  position: center;
+}
+
+.base2 {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info2 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/mareb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title2 {
+  position: relative;
+  font-size: 27px;
+  width: 340px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description2 {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: -70%;
+  text-align: left;
+}
+
+.base3 {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info3 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/dsc_0423b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title3 {
+  position: relative;
+  font-size: 27px;
+  width: 345px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description3 {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: -68%;
+  text-align: left;
+}
+
+.base4 {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 117%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info4 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/sunflowerb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title4 {
+  position: relative;
+  font-size: 27px;
+  width: 340px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description4 {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 160%;
+  left: -70%;
+  text-align: left;
+}
+
+.base5 {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 117%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info5 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/balineseb.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title5 {
+  position: relative;
+  font-size: 27px;
+  width: 340px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description5 {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 160%;
+  left: -70%;
+  text-align: left;
+}
+
+.base6 {
+  width: 600px;
+  height: 350px;
+  position: absolute;
+  top: 117%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border: 4px solid red;
+  background-color: white;
+  overflow: hidden;
+}
+
+.info6 {
+  position: absolute;
+  top: 22.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/alionb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 213px;
+  height: 125px;
+}
+
+.Title6 {
+  position: relative;
+  font-size: 27px;
+  width: 345px;
+  top: 10%;
+  left: 110%;
+  text-align: left;
+}
+
+.Description6 {
+  position: absolute;
+  font-size: 20px;
+  width: 580px;
+  top: 120%;
+  left: -68%;
+  text-align: left;
+}
+
+.square2 {
+	max-width: 100%;
+	height: 880px;
+	background-color: gray;
+  opacity: 50%;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+  z-index: -1;
+}
+
+.container3 {
+	max-width: 100%;
+	height: 150px;
+	background-color: black;
+	position: relative;
+	left: auto;
+	top: 0%;
+	margin: 0 auto;
+	z-index: 1;
+}
